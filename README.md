@@ -1,28 +1,26 @@
 # interview
-#Backend Test
+Backend Test
 
 
-#BACA INI DULU:
-#1.	Gunakan Bahasa Inggris atau Bahasa Indonesia dalam semua jawaban Anda.
-#2.	Ada 5 pertanyaan tanpa urutan kesulitan tertentu.
-#3.	Anda dapat meninggalkan pertanyaan yang ditandai dengan "Untuk diskusi nanti".
-#4.	Anda harus dapat menjelaskan semua jawaban Anda selama wawancara berikut. Ini juga berlaku jika Anda menyalin jawaban Anda dari referensi eksternal apa pun.
-#5.	Unggah karya Anda di gitlab atau github.
-#●	Jawab pertanyaan dalam file markdown (.md), dan untuk pertanyaan pemrograman, jawab dalam file terpisah menggunakan python (.py).  
-#Pertanyaan #1 (pemeliharaan)
-#Saat memecahkan masalah bug di aplikasi lama, Anda menemukan bahwa metode "multiply" di bawah ini adalah sumber masalahnya.
+BACA INI DULU:
+1.	Gunakan Bahasa Inggris atau Bahasa Indonesia dalam semua jawaban Anda.
+2.	Ada 5 pertanyaan tanpa urutan kesulitan tertentu.
+3.	Anda dapat meninggalkan pertanyaan yang ditandai dengan "Untuk diskusi nanti".
+4.	Anda harus dapat menjelaskan semua jawaban Anda selama wawancara berikut. Ini juga berlaku jika Anda menyalin jawaban Anda dari referensi eksternal apa pun.
+5.	Unggah karya Anda di gitlab atau github.
+●	Jawab pertanyaan dalam file markdown (.md), dan untuk pertanyaan pemrograman, jawab dalam file terpisah menggunakan python (.py).  
+Pertanyaan #1 (pemeliharaan)
+Saat memecahkan masalah bug di aplikasi lama, Anda menemukan bahwa metode "multiply" di bawah ini adalah sumber masalahnya.
 
 CODE:
  
-#///
-#/// multiplies x times y
-#///
-#def multiply(x, y):
-#    total = 0
-#    while x > 0:
-#        total += y
-#        x -= 1
-#    return total 
+
+def multiply(x, y):
+    total = 0
+    while x > 0:
+        total += y
+        x -= 1
+    return total 
  
 QUESTIONS:
 1.	Apa yang salah dengan kode di atas?
