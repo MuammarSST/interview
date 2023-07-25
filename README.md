@@ -58,20 +58,20 @@ ID	NAME
 What would be the output of the following select statements?
 
 Select USA.NAME, EU.NAME From USA, EU Where USA.ID = EU.ID		
-NAME	       NAME(1)
+NAME	    NAME(1)
 Thomas      Thomas
 
 
 Select USA.NAME, EU.NAME From USA left join EU on (USA.ID = EU.ID)
-	NAME	            NAME(1)
+NAME	            NAME(1)
 Thomas	            Thomas
 Cindy	             	
 
 Select USA.NAME, EU.NAME From USA, EU
 NAME	            NAME(1)
-Cindy	            Thomas
+Cindy	          Thomas
 Thomas	          Thomas
-Cindy	            Francois
+Cindy	          Francois
 Thomas	          Francois
 
 Untuk diskusi nanti: kami menggunakan tabel tersebut untuk melacak pelanggan Eropa dan Amerika kami.  Tolong berikan kritik untuk desain tabel itu (apakah itu bagus?  Bagaimana bisa lebih baik?).
@@ -142,10 +142,8 @@ class Node:
 def max_depth(root):
     if root is None:
         return 0
-
     left_depth = max_depth(root.left)
     right_depth = max_depth(root.right)
-
     return max(left_depth, right_depth) + 1
 
 
