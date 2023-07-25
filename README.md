@@ -145,7 +145,7 @@ def max_depth(root):
     return max(left_depth, right_depth) + 1
 
 
-# Membangun pohon biner
+
 root = Node(10)
 root.left = Node(5)
 root.right = Node(15)
@@ -153,7 +153,7 @@ root.left.left = Node(3)
 root.left.right = Node(8)
 root.right.right = Node(20)
 
-# Memanggil metode untuk menghitung kedalaman maksimum
+
 depth = max_depth(root)
 print("Kedalaman maksimum pohon: ", depth)
 
